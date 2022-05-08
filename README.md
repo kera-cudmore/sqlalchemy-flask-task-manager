@@ -2,9 +2,9 @@
 
 A task manager site created as a walkthrough project from Code Institute. This task manager uses a relational database - SQLAlchemy.
 
-Add site responsive screenshot here ![]()
+Add site responsive screenshot here
 
-Link to deployed site to go here []()
+Link to deployed site to go here
 
 ![GitHub last commit]()
 ![GitHub contributors]()
@@ -129,7 +129,9 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 ### Deployment
 
-The site is deployed using **
+The site is deployed using Heroku. To deploy the site using Heroku:
+
+1. ** add instructions to deploy here.
 
 ### Local Development
 
@@ -138,7 +140,7 @@ The site is deployed using **
 To fork the repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, **.
+2. Go to the repository for this project, [sqlalchemy-flask-task-manager](https://github.com/kera-cudmore/sqlalchemy-flask-task-manager).
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
@@ -146,7 +148,7 @@ To fork the repository:
 To clone the repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, **.
+2. Go to the repository for this project, [sqlalchemy-flask-task-manager](https://github.com/kera-cudmore/sqlalchemy-flask-task-manager).
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
