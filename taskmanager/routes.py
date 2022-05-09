@@ -7,4 +7,4 @@ def home():
     """
     returns the base.html from templates
     """
-    return render_template("base.html")
+    return render_template("tasks.html")
