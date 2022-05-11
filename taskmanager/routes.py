@@ -38,3 +38,11 @@ def add_category():
     return render_template("add_category.html")
 
 # Look into defensive programming and error handling
+
+
+@app.route("/edit_category/<int:category_id>", methods=["GET", "POST"])
+def edit_category(category_id):
+    """
+    edit category function
+    """
+    return render_template("edit_category.html")
