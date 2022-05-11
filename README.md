@@ -6,10 +6,10 @@ Add site responsive screenshot here
 
 Link to deployed site to go here
 
-![GitHub last commit]()
-![GitHub contributors]()
-![GitHub language count]()
-![GitHub top language]()
+![GitHub last commit](https://img.shields.io/github/last-commit/kera-cudmore/sqlalchemy-flask-task-manager?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/sqlalchemy-flask-task-manager?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/kera-cudmore/sqlalchemy-flask-task-manager?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/kera-cudmore/sqlalchemy-flask-task-manager?style=for-the-badge)
 ![W3C Validator]()
 
 ## CONTENTS
