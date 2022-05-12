@@ -13,6 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // select category dropdown initialization
     let selects = document.querySelectorAll('select');
-    M.FormSelect.init(elems, options);
+    M.FormSelect.init(selects);
   });
 
