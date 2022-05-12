@@ -10,5 +10,9 @@ document.addEventListener('DOMContentLoaded', function() {
         format: "dd mmm, yyyy",
         i18n: {done: "Select"}
     });
+
+    // select category dropdown initialization
+    let selects = document.querySelectorAll('select');
+    M.FormSelect.init(elems, options);
   });
 
