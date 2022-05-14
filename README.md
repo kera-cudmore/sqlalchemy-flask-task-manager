@@ -4,7 +4,7 @@ A task manager site created as a walkthrough project from Code Institute. This t
 
 Add site responsive screenshot here
 
-Link to deployed site to go here
+Visit the live site here: [Relational Databases Task Manager](https://flask-sql-alchemy-taskmanager.herokuapp.com/)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/kera-cudmore/sqlalchemy-flask-task-manager?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/sqlalchemy-flask-task-manager?style=for-the-badge)
