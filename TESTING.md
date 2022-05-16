@@ -23,8 +23,6 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 
 During development I made use of google developer tools to ensure everything was working correctly and to assist with troubleshooting when things were not working as expected.
 
-I utilised the console in the developer tools to work through small sections of JavaScript and ensure that the code was working, and also to troubleshoot where issues were.
-
 I have gone through each page using google chrome developer tools & Firefox inspector tool to ensure that each page is responsive on a variety of different screen sizes and devices.
 
 - - -
@@ -34,6 +32,13 @@ I have gone through each page using google chrome developer tools & Firefox insp
 ### W3C Validator
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
+
+* [tasks.html](documentation/tasks.png)
+* edit_task.html
+* add_task.html
+* [categories.html](documentation/categories.png)
+* [edit_category.html](documentation/edit_cat.png)
+* [add_category.html](documentation/add_cat.png)
 
 - - -
 
