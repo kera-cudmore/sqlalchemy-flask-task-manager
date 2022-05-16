@@ -10,7 +10,6 @@ Visit the live site here: [Relational Databases Task Manager](https://flask-sql-
 ![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/sqlalchemy-flask-task-manager?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/kera-cudmore/sqlalchemy-flask-task-manager?style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/kera-cudmore/sqlalchemy-flask-task-manager?style=for-the-badge)
-![W3C Validator]()
 
 ## CONTENTS
 
@@ -76,9 +75,12 @@ Wireframes links/images to go here
 
 ### Features
 
-The website is comprised of …
+The website is comprised of 6 pages: The home page which displays all tasks, a categories page which displays all categories, an edit categories page which allows the user to edit a category, an edit task page which allows the user to edit a task, an add category page which allows userts to create a new category and an add task page which allows users to create a new task.
 
 * All Pages on the website have:
+
+A navbar.
+A footer.
 
 * Future Implementations.
 
