@@ -10,6 +10,7 @@ Visit the deployed site: deployed site link to go here
 
 * [AUTOMATED TESTING](#AUTOMATED-TESTING)
   * [W3C Validator](#W3C-Validator)
+  * [JavaScript Validator](#JavaScript-Validator)
   * [Python Validator](#Python-Validator)
   * [Lighthouse](#Lighthouse)
 * [MANUAL TESTING](#MANUAL-TESTING)
@@ -39,12 +40,22 @@ I have gone through each page using google chrome developer tools & Firefox insp
 * [categories.html](documentation/categories.png)
 * [edit_category.html](documentation/edit_cat.png)
 * [add_category.html](documentation/add_cat.png)
+* [CSS](documentation/css.png)
+
+- - -
+
+### JavaScript Validator
+
+JavaScript files were validated using JShint.
+
+* [script.js](documentation/js.png)
 
 - - -
 
 ### Python Validator
 
 Put information about the python validator here - Pep8
+
 - - -
 
 ### Lighthouse
