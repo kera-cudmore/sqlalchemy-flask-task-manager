@@ -25,16 +25,17 @@
 
     <header>
         <!-- top navbar-->
-        <nav class="light-blue darken-1">
+        <nav class="deep-purple">
             <div class="nav-wrapper">
                 <a href="{{ url_for('home') }}" class="brand-logo">Task
                     Manager</a>
-                <a href="#" data-target="mobile-demo"
-                    class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
+                        class="fas fa-bars"></i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="{{ url_for('home') }}">Home</a></li>
                     <li><a href="{{ url_for('add_task') }}">New Task</a></li>
-                    <li><a href="{{ url_for('categories') }}">Categories</a></li>
+                    <li><a href="{{ url_for('categories') }}">Categories</a>
+                    </li>
 
                 </ul>
             </div>
@@ -54,7 +55,7 @@
         {% endblock %}
     </main>
 
-    <footer class="page-footer blue darken-3">
+    <footer class="page-footer deep-purple">
         <div class="footer-copyright">
             <div class="container">
                 For educational purposes only
