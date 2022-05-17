@@ -77,8 +77,16 @@ Wireframes links/images to go here
 
 The website is comprised of 6 pages: The home page which displays all tasks, a categories page which displays all categories, an edit categories page which allows the user to edit a category, an edit task page which allows the user to edit a task, an add category page which allows userts to create a new category and an add task page which allows users to create a new task.
 
-* All Pages on the website have:
+All Pages on the website have:
 
+* A favicon. The favicon for the site was created at [Favicon.io](https://favicon.io/).
+    * Font Title: Leckerli One
+    * Font Author: Copyright (c) 2011 [Gesine Todt](www.gesine-todt.de), with Reserved Font Names "Leckerli"
+    * [Font Source](http://fonts.gstatic.com/s/leckerlione/v16/V8mCoQH8VCsNttEnxnGQ-1itLZxcBtItFw.ttf)
+    * [Font License: SIL Open Font License, 1.1](http://scripts.sil.org/OFL))
+
+    ![Relational Task Manager Favicon Image 1](documentation/favicon1.png)
+    ![Relation Task Manager Favicon Image 2](documentation/favicon2.png)
 A navbar.
 A footer.
 
