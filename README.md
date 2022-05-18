@@ -69,7 +69,7 @@ I have used `#9575CD` and `#673AB7` as the main colour highlights for the site, 
 
 ### Typography
 
-Google Fonts was used to import the chosen fonts for use in the site.
+I used the system fonts and didn't import any fonts for this project.
 
 ### Imagery
 
