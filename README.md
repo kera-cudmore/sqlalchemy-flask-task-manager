@@ -59,7 +59,13 @@ Visit the live site here: [Relational Databases Task Manager](https://flask-sql-
 
 ### Colour Scheme
 
-Image of colour scheme to go here
+![Colour scheme for relational task manager](documentation/colour-scheme.png)
+
+I have used `#9575CD` and `#673AB7` as the main colour highlights for the site, used for the headers, footers, titles, task collapsibles and category cards.
+
+`#000000` & `#FFFFFF` have been used for the text on the site and the background of the site and collapsible tasks.
+
+`#F44336` & `#00C853` are used for the edit and delete buttons.
 
 ### Typography
 
