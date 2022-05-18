@@ -38,8 +38,6 @@ Visit the live site here: [Relational Databases Task Manager](https://flask-sql-
   
 * [Credits](#Credits)
   * [Code Used](#Code-Used)
-  * [Content](#Content)
-  * [Media](#Media)
 
 - - -
 
@@ -73,9 +71,11 @@ I used the system fonts and didn't import any fonts for this project.
 
 ### Imagery
 
+All icons on the site were sourced from Font Awesome.
+
 ### Wireframes
 
-Wireframes were created for mobile, tablet and desktop using ...
+Wireframes were created for mobile, tablet and desktop using Balsamiq.
 
 Wireframes links/images to go here
 
@@ -141,19 +141,15 @@ Github - To save and store the files for the website.
 
 [Materialize](https://materializecss.com/) - Version 1.0.0 - For the frontend framework
 
-? Google Fonts - To import the fonts used on the website.
-
 [Font Awesome](https://fontawesome.com/v5/search)- Version 5.15.3 - For the iconography on the website.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-? [Tiny PNG](https://tinypng.com/) To compress images.
-
-? [Birme](https://www.birme.net/) To resize images and convert to webp format.
+[Tiny PNG](https://tinypng.com/) To compress images used in the readme file.
 
 [Favicon.io](https://favicon.io/) To create favicon.
 
-? [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
 [Shields.io](https://shields.io/) To add badges to the README
 
@@ -198,7 +194,3 @@ Testing was ongoing throughout the entire build. Please visit [TESTING.md](TESTI
 ### Code Used
 
 This project was created as part of a walkthrough project for the Level 5 Diploma in Web Application Development with the Code Institute.
-
-### Content
-
-### Media
