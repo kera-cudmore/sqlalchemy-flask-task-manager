@@ -113,6 +113,33 @@ All Pages on the website have:
 
 ![Footer](documentation/footer.png)
 
+- - -
+
+`Home Page`
+
+![Home Page](documentation/site-images/homepage.png)
+![Home Page Tasks Dropdown Open](documentation/site-images/homepage-tasksopen.png)
+
+`Add Task Page`
+
+![Add Task Page](documentation/site-images/addtaskspage.png)
+
+`Edit Task Page`
+
+![Edit Task Page](documentation/site-images/edittaskpage.png)
+
+`Categories Page`
+
+![Categories Page](documentation/site-images/categoriespage.png)
+
+`Add Category Page`
+
+![Add Category Page](documentation/site-images/addcategoriespage.png)
+
+`Edit Category Page`
+
+![Edit Category Page](documentation/site-images/editcategorypage.png)
+
 Future Implementations.
 
 * Login functionality
