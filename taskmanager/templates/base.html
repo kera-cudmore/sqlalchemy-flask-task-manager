@@ -6,6 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Social media integration, for when people share your content -->
+    <!-- Facebook, LinkedIn, Google -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Task Manager - Relational Database" />
+    <meta property="og:description" content="A task manager application using relational database - created as part of a Code Institute walkthough project" />
+    <meta name="image" property="og:image" content="{{ url_for ('static', filename='images/site-responsive.png') }}" />
+    <meta property="og:image:alt" content="Task Manager - Relational Database site shown on a variety of devices" />
+    <meta property="og:url" content="https://flask-sql-alchemy-taskmanager.herokuapp.com/" />
+    <meta property="og:site_name" content="Task Manager - Relational Database" />
+    <meta name="author" content="Code Institute & Kera Cudmore">
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='favicon/apple-touch-icon.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon/favicon-32x32.png') }}">
@@ -24,7 +35,7 @@
         href="{{ url_for('static', filename='css/style.css') }}"
         type="text/css">
 
-    <title>Task Manager</title>
+    <title>Task Manager - Relational Database</title>
 </head>
 
 <body>
