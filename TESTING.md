@@ -66,9 +66,11 @@ Put information about the python validator here - Pep8
 
 I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
 
+Lighthouse testing has flagged an issue with the colour scheme of the website - the contrast is not meeting requirements. This will be updated in a future release.
+
 ### Desktop Results
 
-* [tasks.html Lighouse Desktop Testing]()
+* [tasks.html Lighouse Desktop Testing](documentation/lighthouse/home-lh-desk.png)
 * [edit_task.html Lighouse Desktop Testing]()
 * [add_task.html Lighouse Desktop Testing]()
 * [categories.html Lighouse Desktop Testing]()
@@ -77,7 +79,7 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 ### Mobile Results
 
-* [tasks.html Lighouse Mobile Testing]()
+* [tasks.html Lighouse Mobile Testing](documentation/lighthouse/home-lh-mobile.png)
 * [edit_task.html Lighouse Mobile Testing]()
 * [add_task.html Lighouse Mobile Testing]()
 * [categories.html Lighouse Mobile Testing]()
@@ -133,10 +135,37 @@ Each device tested the site using the following browsers:
 
 Additional testing was taken by friends and family on a variety of devices and screen sizes. They reported no issues when playing.
 
-`** Page`
-
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
+| `Navbar` |
+| Navbar - Task Manager Site Name | Reloads the home page | Clicked site name | Home page reloads | Pass |
+| Navbar - Home | Reloads the home page | Clicked home link | Home page reloads | Pass |
+| Navbar - New Task | Loads the add task page | Clicked New Task link | Add task page loads | Pass |
+| Navbar - Categories | Loads the categories page | Clicked Categories link | Categories page loads | Pass |
+| `Home Page` |
+| Add task button | Redirects to the add task page | Click button | Redirected to the add task page | Pass |
+| Task drop down - to open | When clicked the task dropdown opens to display the task information | Click the task dropdown | Task dropdown opens | Pass |
+| Task drop down - to close | When clicked the task dropdown closes to only display the task name and due date | Click the task dropdown | Task dropdown closes | Pass |
+| Task Edit Button | When clicked the edit task page is opened with the task to be edited prepopulated | Click edit buton | Edit task page opens with the task information prepopulated | Pass |
+| Task Delete button | When clicked the task is deleted | Click delete button | Task deleted from the list | Pass |
+| `Add Task Page` |
+| Add task button - form not filled out | Tooltips to be displayed to show site user what information is required to be filled in before submission | Click add task button with the form empty | Tooltip displays showing the user they need to fill in a field | Pass |
+| Add task button - form filled out | User redirected to the home page with the task created in the list | Filled in form and clicked add task button | Redirected to the home page. Task created is in the list | Pass |
+| `Edit Task Page` |
+| --- | --- | --- | --- | --- |
+| Submit button - task edited | User redirected to home page and the task edited has been updated | Changed a task and clicked edit task button | Page didn't reload to home. When home page loaded the task has been updated | FAIL - (Check routes) |
+| `Categories Page` |
+| --- | --- | --- | --- | --- |
+| Add Category Button | When clicked the user is redirected to the add category page | Clicked add category button | Add category page opens | Pass |
+| Category Card Edit Button | When clicked the user is redirected to the edit category page with the category name prepopulated | Clicked the edit button | Edit category page is opened | Pass |
+| Category Card Delete Category Button | When clicked the category is deleted | Clicked delete button | The category card is removed from the categories page | Pass |
+| `Add Category Page` |
+| Add Category Button - category name empty | The user will be shown a tooltip showing them the category field needs to be completed | Clicked add category button with no category name filled in | tooltip displayed asing user to fill in category name field | Pass |
+| Add Category Button - category name selected | User is redirected to the categories page and the new category card is displayed |  | Created a category name and clicked add category | Pass |
+| `Edit Category Page` |
+| Edit Category button | when clicked the user is redirected to the categories page and the category name has been updated | Updated category name and clicked edit category button | Redirected to categories page and the category name was updated | Pass |
+| `Footer` |
+| Footer - Code Institute Link | Opens in a new tab the Code Institute website | Click link | Code Institute site opened in a new browser tab | Pass |
 
 - - -
 
@@ -145,7 +174,8 @@ Additional testing was taken by friends and family on a variety of devices and s
 ### Known Bugs
 
 | Known Bug No | Bug Issue | Plan to Resolve |
-| :--- | :--- | :--- |
+| 1 | Contrast on the site is not suffient to pass contrast checks | Adjust the colour scheme of the site to ensure colour contrast is sufficient |
+| 2 | Edit Task page is not redirecting to the home page | Check the routes for the edit task page |
 
 ### Solved Bugs
 
