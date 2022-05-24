@@ -34,13 +34,13 @@ I have gone through each page using google chrome developer tools & Firefox insp
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
-* [tasks.html](documentation/tasks.png)
-* edit_task.html
-* add_task.html
-* [categories.html](documentation/categories.png)
-* [edit_category.html](documentation/edit_cat.png)
-* [add_category.html](documentation/add_cat.png)
-* [CSS](documentation/css.png)
+* [tasks.html](documentation/validation/tasks.png) - Passed
+* [edit_task.html](documentation/validation/edit-task.png) - This is showing one error, The select element cannot have more than one selected option descendant unless the multiple attribute is specified. I will need to research this issue, and check the materialize documentation.
+* [add_task.html](documentation/validation/add-task.png) - Passed
+* [categories.html](documentation/validation/categories.png) - Passed
+* [edit_category.html](documentation/validation/edit_cat.png) - Passed
+* [add_category.html](documentation/validation/add_cat.png) - Passed
+* [CSS](documentation/validation/css.png) - Passed
 
 - - -
 
@@ -48,7 +48,7 @@ I have gone through each page using google chrome developer tools & Firefox insp
 
 JavaScript files were validated using JShint.
 
-* [script.js](documentation/js.png)
+* [script.js](documentation/validation/js.png)
 
 - - -
 
