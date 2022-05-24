@@ -116,7 +116,8 @@ All Pages on the website have:
 Future Implementations.
 
 * Login functionality
-* Defensive programming & user authentication
+* Defensive programming - I would like to add a modal that pops up when a user wants to delete a task or category, as an extra layer of security to confirm the user wants to delete and to let them know that this action is permanent and cannot be undone.
+* User authentication - I would like to add the functionality to allow users to log in to their own accounts. This could also then be tied into the defensive programming by ensuring the person deleting is the same person who created the task.
 
 ### Accessibility
 
