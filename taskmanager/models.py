@@ -13,11 +13,11 @@ from taskmanager import db
 # allows us to use dot notation to specify column data types
 
 # Each model also needs a function __repr__ that takes itself as the argument
-# (like this in JS). It is a standard Python function which stands for 
+# (like this in JS). It is a standard Python function which stands for
 # represent - it means to represent the class objects as a string
 
 # unique=True - makes sure each new category added to the database is unique
-# nullable=False - this makes sure that field isn't empty or blank, 
+# nullable=False - this makes sure that field isn't empty or blank,
 # makes it a required field
 
 
@@ -25,14 +25,17 @@ class Category(db.Model):
     # Schema for the Category model
     id = db.Column(db.Integer, primary_key=True)
     category_name = db.Column(db.String(25), unique=True, nullable=False)
-    tasks = db.relationship("Task", backref="category", cascade="all, delete", lazy=True)
+    tasks = db.relationship(
+                            "Task", backref="category",
+                            cascade="all, delete", lazy=True
+                            )
 
     def __repr__(self):
         # __repr__ to represent itself in the form of a string
         return self.category_name
 
 # CATEGORY TABLE NOTES
-# db.relationship - not a visible column on the table - it references a one to 
+# db.relationship - not a visible column on the table - it references a one to
 # many relationship (category < tasks)
 
 # To link we need to specify which table is being targeted ("Tasks")
@@ -51,10 +54,12 @@ class Task(db.Model):
     task_description = db.Column(db.Text, nullable=False)
     is_urgent = db.Column(db.Boolean, default=False, nullable=False)
     due_date = db.Column(db.Date, nullable=False)
-    category_id = db.Column(db.Integer, db.ForeignKey("category.id", ondelete="CASCADE"), nullable=False)
+    category_id = db.Column(db.Integer, db.ForeignKey("category.id",
+                            ondelete="CASCADE"), nullable=False
+                            )
 
     def __repr__(self):
-        #__repr__ to represent itself in the form of a string
+        # __repr__ to represent itself in the form of a string
         return "#{0} - Task: {1} | Urgent: {2}".format(
             self.id, self.task_name, self.is_urgent
         )

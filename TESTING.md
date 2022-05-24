@@ -56,6 +56,10 @@ JavaScript files were validated using JShint.
 
 Put information about the python validator here - Pep8
 
+* [__init__.py](documentation/validation/__init__validation.png) - one error displaying for module not being imported at the top of the file, however as the routes file relies on both the app and db variables they must be defined above where the routes are imported. If we tried to import the routes before defining the app and db variables we would get circular import errors
+* [models.py](documentation/validation/models-validation.png) - No Errors
+* [routes.py](documentation/validation/routes-validation.png) - The errors are for no whitespace around mathmatical operators. I have not added the whitespaces as on investigation this rule is not unanimously accepted.
+
 - - -
 
 ### Lighthouse
@@ -64,7 +68,21 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 ### Desktop Results
 
+* [tasks.html Lighouse Desktop Testing]()
+* [edit_task.html Lighouse Desktop Testing]()
+* [add_task.html Lighouse Desktop Testing]()
+* [categories.html Lighouse Desktop Testing]()
+* [edit_category.html Lighouse Desktop Testing]()
+* [add_category.html Lighouse Desktop Testing]()
+
 ### Mobile Results
+
+* [tasks.html Lighouse Mobile Testing]()
+* [edit_task.html Lighouse Mobile Testing]()
+* [add_task.html Lighouse Mobile Testing]()
+* [categories.html Lighouse Mobile Testing]()
+* [edit_category.html Lighouse Mobile Testing]()
+* [add_category.html Lighouse Mobile Testing]()
 
 - - -
 
