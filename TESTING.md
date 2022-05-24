@@ -74,18 +74,25 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 `First Time Visitors`
 
-| Goals | How are they achieved? |
-| :--- | :--- |
+| Goals | How are they achieved? | Evidence |
+| :--- | :--- | :--- |
+| As a first time user, I want the site to be easy to navigate.| The site features a navbar which allows the user to easily navigate through the site | ![navbar desktop](documentation/navbar.png) ![Navbar Mobile](documentation/navbar-mobile.png) |
+| As a first time user, I want to be able to add categories to store my tasks in. | When the user navigates to the categories page they are given the option to create a new category | ![Add Category](documentation/userstory-addcategory.png) |
+| As a first time user, I want to be able to save tasks I create in a category of my choice. | The user is given the option to create a new task from the home page | ![Add Task](documentation/userstory-add-task.png) |
 
 `Returning Visitors`
 
-|  Goals | How are they achieved? |
-| :--- | :--- |
+|  Goals | How are they achieved? | Evidence |
+| :--- | :--- | :--- |
+| As a returning user, I want to be able to edit tasks. | When the user expands a task, they are given the option via button to edit the task. | ![Edit Task](documentation/userstory-edit-task.png) |
+| As a returning user, I want to be able to edit categories. | When the user visits the categories page, they are given the option via button on each category card to edit the category | ![Edit Category](documentation/userstory-addcategory.png) |
 
 `Frequent Visitors`
 
-| Goals | How are they achieved? |
-| :--- | :--- |
+| Goals | How are they achieved? | Evidence |
+| :--- | :--- | :--- |
+| As a frequent user, I want to be able to delete tasks I no longer want. | When the user expands a task, they are given the option via button to delete the task | ![Delete Task](documentation/userstory-edit-task.png) |
+| As a frequent user, I want to be able to delete categories that I no longer need. | When the user visits the categories page, they are given the option via button on each category card to delete the category | ![Delete Category](documentation/userstory-addcategory.png) |
 
 - - -
 
