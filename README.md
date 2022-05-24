@@ -1,8 +1,10 @@
 # Relational Databases Task Manager
 
-A task manager site created as a walkthrough project from Code Institute. This task manager uses a relational database - SQLAlchemy.
+A Relational Database Task Manager site created as a walkthrough project from Code Institute.
 
-Add site responsive screenshot here
+Users are able to create, view, edit and delete their tasks and categories. 
+
+![Task Manager Site Image - Responsive Screens](taskmanager/static/images/site-responsive.png)
 
 Visit the live site here: [Relational Databases Task Manager](https://flask-sql-alchemy-taskmanager.herokuapp.com/)
 
