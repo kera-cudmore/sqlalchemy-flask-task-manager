@@ -2,7 +2,7 @@
 
 A Relational Database Task Manager site created as a walkthrough project from Code Institute.
 
-Users are able to create, view, edit and delete their tasks and categories. 
+Users are able to create, view, edit and delete their tasks and categories.
 
 ![Task Manager Site Image - Responsive Screens](taskmanager/static/images/site-responsive.png)
 
@@ -204,7 +204,15 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 The site is deployed using Heroku. To deploy the site using Heroku:
 
-1. ** add instructions to deploy here.
+1. Create a new app with the name: flask-sql-alchemy-taskmanager.
+2. Linked the flask-sql-alchemy-taskmanager app to the Github repository.
+3. Verify that the project has an up to date Procfile and requirements.txt
+4. Push the project to the Heroku remote.
+5. Set the SECRET_KEY environmental variable in the Heroku config vars.
+6. Set the IP to 0.0.0.0 and the PORT to 5000 in the Heroku config vars.
+7. Set the MONGO_URI environmental variable in the Heroku config vars.
+8. Restart all dynos.
+9. Open the app on Heroku and check to ensure that it's working correctly.
 
 ### Local Development
 
