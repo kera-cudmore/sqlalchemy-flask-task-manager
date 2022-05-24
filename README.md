@@ -150,6 +150,7 @@ Future Implementations.
 * Defensive programming - I would like to add a modal that pops up when a user wants to delete a task or category, as an extra layer of security to confirm the user wants to delete and to let them know that this action is permanent and cannot be undone.
 * User authentication - This could then be tied into the defensive programming by ensuring the person deleting task/category is the same person who created the task/category.
 * 404 Error Page
+* Colour Scheme - ensure that the contrast is sufficient to pass checks.
 
 ### Accessibility
 
@@ -158,7 +159,7 @@ I have been mindful during coding to ensure that the website is as accessible fr
 * Using semantic HTML.
 * Using descriptive alt attributes on images on the site.
 * Providing information for screen readers where there are icons used and no text.
-* Ensuring that there is a sufficient colour contrast throughout the site.
+* I am aware from the Lighthouse testing that the current colour scheme is not meeting some contrast requirements. This will be ammended in a future release.
 
 - - -
 
