@@ -1,8 +1,8 @@
 # Relational Databases Task Manager - Testing
 
-responsive image of site to go here
+![Task Manager Site Image - Responsive Screens](taskmanager/static/images/site-responsive.png)
 
-Visit the deployed site: deployed site link to go here
+Visit the deployed site: [Relational Databases Task Manager](https://flask-sql-alchemy-taskmanager.herokuapp.com/)
 
 - - -
 
