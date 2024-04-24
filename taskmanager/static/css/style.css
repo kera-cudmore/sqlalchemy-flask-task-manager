@@ -1,9 +1,23 @@
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 
-  main {
-    flex: 1 0 auto;
-  }
+main {
+  flex: 1 0 auto;
+}
+
+.datepicker-date-display {
+  background-color: #512da8;
+}
+
+.datepicker-table td.is-today,
+.btn-flat {
+  color: #512da8;
+}
+
+.datepicker-table td.is-selected {
+  background-color: #512da8;
+  color: #fff;
+}
