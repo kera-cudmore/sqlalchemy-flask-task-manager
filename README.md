@@ -182,25 +182,22 @@ The site is deployed using Heroku. To deploy the site using Heroku:
 2. Linked the flask-sql-alchemy-taskmanager app to the Github repository.
 3. Verify that the project has an up to date Procfile and requirements.txt
 4. Push the project to the Heroku remote.
-5. Set the SECRET_KEY environmental variable in the Heroku config vars.
+5. Set the following environmental variable in the Heroku config vars:
 
-    | KEY | VALUE |
-    | :-- | :-- |
-    | IP | 0.0.0.0 |
-    | PORT | 5000 |
-    | SECRET_KEY| YOUR_SECRET_KEY`*` |
-    | DATABASE_URL | postgres database url`*` |
-    | MONGO_DBNAME | MONGO_DB`*` |
-    | DEBUG | TRUE`**` |
+  | KEY | VALUE |
+  | :-- | :-- |
+  | IP | 0.0.0.0 |
+  | PORT | 5000 |
+  | SECRET_KEY| YOUR_SECRET_KEY`*` |
+  | DATABASE_URL | postgres database url`*` |
+  | DEBUG | TRUE`**` |
 
-`*` Denotes a value that is specific to your app.
+  `*` Denotes a value that is specific to your app.
 
-`**` This is set to true while deploying to enable us to see any bugs. Please change to FALSE after deployment.
+  `**` This is set to true while deploying to enable us to see any bugs. Please change to FALSE after deployment.
 
-6. Set the IP to 0.0.0.0 and the PORT to 5000 in the Heroku config vars.
-7. Set the DATABASE_URL environmental variable in the Heroku config vars.
-8. Restart all dynos.
-9. Open the app on Heroku and check to ensure that it's working correctly.
+6. Restart all dynos.
+7. Open the app on Heroku and check to ensure that it's working correctly.
 
 ### Local Development
 
@@ -224,7 +221,35 @@ To clone the repository:
 
 #### How to run the project Locally
 
-Once you have cloned the project locally, created a virtual environment and installed the requirements, you can run the project locally with the following command:
+Once you have cloned the project locally:
+
+1. create a virtual environment, the second venv argument is the name you wish to use for the virtual environment - common choices are `venv` or `.venv`
+
+
+  ```bash
+  python3 -m venv venv
+  ```
+
+2. Activate the virtual environment:
+
+  **For Mac**
+  ```bash
+  source venv/bin/activate
+  ```
+
+  **For Windows**
+
+  ```bash
+  venv\Scripts\activate
+  ```
+
+3. Install the requirements
+
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+ 4. Run the project locally
 
 ```bash
 python3 run.py
