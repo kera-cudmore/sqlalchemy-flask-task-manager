@@ -13,33 +13,6 @@ Visit the live site here: [Relational Databases Task Manager](https://flask-sql-
 ![GitHub language count](https://img.shields.io/github/languages/count/kera-cudmore/sqlalchemy-flask-task-manager?style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/kera-cudmore/sqlalchemy-flask-task-manager?style=for-the-badge)
 
-## CONTENTS
-
-* [User Experience](#User-Experience)
-  * [User Stories](#User-Stories)
-
-* [Design](#Design)
-  * [Colour Scheme](#Colour-Scheme)
-  * [Typography](#Typography)
-  * [Imagery](#Imagery)
-  * [Wireframes](#Wireframes)
-  * [Features](#Features)
-  * [Accessibility](#Accessibility)
-
-* [Technologies Used](#Technologies-Used)
-  * [Languages Used](#Languages-Used)
-  * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
-
-* [Deployment & Local Development](#Deployment-&-Local-Development)
-  * [Deployment](#Deployment)
-  * [Local Development](#Local-Development)
-    * [How to Fork](#How-to-Fork)
-    * [How to Clone](#How-to-Clone)
-
-* [Testing](#Testing)
-  
-* [Credits](#Credits)
-  * [Code Used](#Code-Used)
 
 - - -
 
@@ -210,8 +183,22 @@ The site is deployed using Heroku. To deploy the site using Heroku:
 3. Verify that the project has an up to date Procfile and requirements.txt
 4. Push the project to the Heroku remote.
 5. Set the SECRET_KEY environmental variable in the Heroku config vars.
+
+    | KEY | VALUE |
+    | :-- | :-- |
+    | IP | 0.0.0.0 |
+    | PORT | 5000 |
+    | SECRET_KEY| YOUR_SECRET_KEY`*` |
+    | DATABASE_URL | postgres database url`*` |
+    | MONGO_DBNAME | MONGO_DB`*` |
+    | DEBUG | TRUE`**` |
+
+`*` Denotes a value that is specific to your app.
+
+`**` This is set to true while deploying to enable us to see any bugs. Please change to FALSE after deployment.
+
 6. Set the IP to 0.0.0.0 and the PORT to 5000 in the Heroku config vars.
-7. Set the MONGO_URI environmental variable in the Heroku config vars.
+7. Set the DATABASE_URL environmental variable in the Heroku config vars.
 8. Restart all dynos.
 9. Open the app on Heroku and check to ensure that it's working correctly.
 
@@ -234,6 +221,14 @@ To clone the repository:
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+#### How to run the project Locally
+
+Once you have cloned the project locally, created a virtual environment and installed the requirements, you can run the project locally with the following command:
+
+```bash
+python3 run.py
+```
 
 - - -
 
