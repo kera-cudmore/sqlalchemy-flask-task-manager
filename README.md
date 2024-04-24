@@ -140,35 +140,26 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 ### Languages Used
 
-HTML, CSS, Python
+* HTML
+* CSS
+* Python
 
 ### Frameworks, Libraries & Programs Used
 
-Balsamiq - Used to create wireframes.
-
-Git - For version control.
-
-Github - To save and store the files for the website.
-
-[Flask-SLQAlchemy](https://pypi.org/project/Flask-SQLAlchemy/)
-
-[psycopg2](https://pypi.org/project/psycopg2/)
-
-[Jinja](https://jinja.palletsprojects.com/en/3.1.x/) - used for templating
-
-[Materialize](https://materializecss.com/) - Version 1.0.0 - For the frontend framework
-
-[Font Awesome](https://fontawesome.com/v5/search)- Version 5.15.3 - For the iconography on the website.
-
-Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
-
-[Tiny PNG](https://tinypng.com/) To compress images used in the readme file.
-
-[Favicon.io](https://favicon.io/) To create favicon.
-
-[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
-
-[Shields.io](https://shields.io/) To add badges to the README
+* Balsamiq - Used to create wireframes.
+* Git - For version control.
+* Github - To save and store the files for the website.
+* [Neon Database](https://neon.tech/) - Postgres Database.
+* [Flask-SLQAlchemy](https://pypi.org/project/Flask-SQLAlchemy/)
+* [psycopg2](https://pypi.org/project/psycopg2/)
+* [Jinja](https://jinja.palletsprojects.com/en/3.1.x/) - used for templating
+* [Materialize](https://materializecss.com/) - Version 1.0.0 - For the frontend framework
+* [Font Awesome](https://fontawesome.com/v5/search)- Version 5.15.3 - For the iconography on the website.
+* Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+* [Tiny PNG](https://tinypng.com/) - To compress images used in the readme file.
+* [Favicon.io](https://favicon.io/) - To create favicon.
+* [Am I Responsive?](http://ami.responsivedesign.is/) - To show the website image on a range of devices.
+* [Shields.io](https://shields.io/) - To add badges to the README
 
 - - -
 
