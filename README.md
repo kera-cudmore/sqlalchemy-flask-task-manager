@@ -62,7 +62,12 @@ All icons on the site were sourced from Font Awesome.
 
 Wireframes were created for mobile, tablet and desktop using Balsamiq.
 
-Wireframes links/images to go here
+* [Tasks/ Home Page](documentation/wireframes/tasks-wireframe.png)
+* [Add Task Page](documentation/wireframes/add-task-wireframe.png)
+* [Edit Task Page](documentation/wireframes/edit-task-wireframe.png)
+* [Categories Page](documentation/wireframes/categories-page.png)
+* [Add Category Page](documentation/wireframes/add-category-wireframe.png)
+* [Edit Category Page](documentation/wireframes/edit-category-wireframe.png)
 
 ### Features
 
